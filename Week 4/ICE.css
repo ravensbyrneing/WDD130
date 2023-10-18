@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #FFFFFF   ;
+    --secondary-color: #000000 ;
+  }
+*{background-color: lightpink;}
+main{
+    width: 50%;
+    margin: auto;
+  }
+h2, h1 {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+  }
+.center{
+    padding: 1em;
+    text-align: center
+}
+h4 {
+    margin: 0 auto;
+    text-align: left;
+  }
+p {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 33%;
+  }
