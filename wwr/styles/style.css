@@ -1,19 +1,32 @@
-@import url('https://fonts.google.com/');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
-    text-align: center
+    font-family: Georgia, 'Times New Roman', Times;
+    text-align: center;
     padding: 35px;
+    color: #180A1F;
+    text-decoration: none;
+}
+nav a:hover{
+    font-family: Georgia, 'Times New Roman', Times;
+    color: #FFDD47;
+    background-color: #275C68;
+}
+#hero-img{
+    width: 100%;
 }
 #hero-msg h1, #hero-msg h4{
-    text-align: center
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .button-box{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 main section{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 #background {
@@ -21,29 +34,51 @@ main section{
     background-color: #FFFD77;
 }
 body{
-   background-color: #FFDD47;
-   font-size: 22px;
-   margin: 0;
-   padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFDD47;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
+    font-family: Georgia, 'Times New Roman', Times;
     background-color: #275C68;
 }
 .home-title{
+    font-family: Georgia, 'Times New Roman', Times;
+    color: #180A1F;
     font-size: 2em;
     margin-top: 10px;
 }
 .book, .join{
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #275C68;
+    background-color: #FFFD77;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
 }
+.book:hover, .join:hover{
+    font-family: 'Courier New', Courier, monospace;
+    color: #180A1F;
+    background-color: #FFDD47;
+}
 .msg p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFDD47;
+    color: #180A1F;
     font-size: .8em;
     line-height: 1.5em;
     padding-bottom: 15px;
 }
+.msg h2{
+    font-family: Georgia, 'Times New Roman', Times;
+    color: #275C68;
+}
 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
 }
 #logo_link{
@@ -51,17 +86,47 @@ h2{
 }
 .icon{
     padding-top: 10px;
+    width: 80px;
 }
 .msg{
     padding: 35px;
+    line-height: 1.5em;
 }
 footer{
+    background-color: #275C68;
+    color: #FFFD77;
     padding: 25px 50px;
     margin-top: 200px;
+}
+footer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #FFDD47;
+}
+footer a:hover{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFDD47;
 }
 footer .social img{
     padding-top: 15px;
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    border: 10px #180A1F;
+}
+h4{
+    color: #180A1F;
+}
+.logo{
+    width: 80px;
+}
+main section img {
+    box-sizing: border-box;
 }
