@@ -5,7 +5,6 @@
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #FFFD77;
 }
 nav a{
     font-family: Georgia, 'Times New Roman', Times;
@@ -65,7 +64,7 @@ body{
 }
 header{
     font-family: Georgia, 'Times New Roman', Times;
-    background-color: #275C68;
+    background-color: #FFFD77;
     display: grid;
     grid-template-columns: 150px auto;
 }
