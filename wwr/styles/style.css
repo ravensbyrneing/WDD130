@@ -5,6 +5,7 @@
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #FFFD77;
 }
 nav a{
     font-family: Georgia, 'Times New Roman', Times;
@@ -34,6 +35,7 @@ nav a:hover{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: #FFFD77;
 }
 #hero-msg {
     grid-column: 2/3;
@@ -69,7 +71,7 @@ header{
 }
 .home-title{
     font-family: Georgia, 'Times New Roman', Times;
-    color: #180A1F;
+    color: #FFFD77;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -86,7 +88,7 @@ header{
 .book:hover, .join:hover{
     font-family: 'Courier New', Courier, monospace;
     color: #180A1F;
-    background-color: #FFDD47;
+    background-color: #275C68;
 }
 .msg p{
     font-family: 'Courier New', Courier, monospace;
@@ -171,7 +173,6 @@ footer .social img{
     border: 10px #180A1F;
     width: 100%;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
     opacity: .6;
