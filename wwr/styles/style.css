@@ -198,7 +198,7 @@ main section img {
 }
 
 
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -238,4 +238,4 @@ main section img {
     footer {
         margin-top: 25px;
     }
-}*/
+}
