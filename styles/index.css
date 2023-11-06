@@ -1,0 +1,137 @@
+/*Header*/
+header{
+    font-family: 'Times New Roman', Times, Georgia;
+    background-color: #abb39c;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+display: flex;
+justify-content: space-around;
+}
+nav a{
+font-family: 'Times New Roman', Times, Georgia;
+text-align: center;
+padding: 35px;
+color: #33673b;
+text-decoration: none;
+}
+nav a:hover{
+font-family: 'Times New Roman', Times, Georgia;
+color: white;
+background-color: #33673b;
+}
+.logo{
+width: 100px;
+}
+#logo_link{
+padding-top: 5px;
+justify-self: center;
+align-self: center;
+}
+
+/*Footer*/
+footer{
+background-color: #abb39c;
+color: #33673b;
+padding: 25px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer p{
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.2em;
+}
+footer a{
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+color: #33673b;
+}
+footer a:hover{
+font-family: 'Courier New', Courier, monospace;
+color: black;
+text-decoration: underline;
+}
+footer .social img{
+padding-top: 15px;
+}
+.social img{
+width: 50px;
+}
+/*Main*/
+main{
+width: 75%;
+grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+body{
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+    background-color: antiquewhite;
+}
+h3{
+    color: #33673b;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#p1{
+    grid-column: 1/4;
+}
+#p2{
+    grid-column: 3/6;
+}
+#p3{
+    grid-column: 2/5;
+}
+.me{
+    grid-column: 4/6;
+}
+.grass{
+    grid-column: 1/3;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
