@@ -82,6 +82,7 @@ h3{
     text-decoration: none;
     color: black;
     grid-column: 2/3;
+    width: 95%
 }
 .website{
     width: 100px;
